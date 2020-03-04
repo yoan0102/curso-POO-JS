@@ -36,5 +36,17 @@ let alvaro = new Profesor(
     "Alvaro", 
     "Felipe",
     "alvaro@ed.team",
-    54
+    54,
+    5,
+    "JavaScript"
     )
+
+let alejandro = new Estudiante(
+  "Alejandro",
+  "Rodriguez",
+  "alejo@ed.team",
+  15,
+  true
+)
+
+console.log(alejandro)
